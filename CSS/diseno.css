@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*Diseño página general*/
+
+.index{
+    background-image: linear-gradient(#C2BFBD, #68625e);
+}
+
+.navbar__center{
+    justify-content: center;
+}
+
+.title{
+    color: #A9684C;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    text-decoration: underline;  
+    background-color: #6B6B76 ;
+}
+
+.titleCel{
+    color: #A9684C;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;  
+    background-color: #6B6B76 ;
+    padding-top: 15px;
+    padding-left: 10;
+}
+
+
+.pading{
+    padding-top: 200px;
+}
+.pading h1{
+    text-align: center;
+}
+.pading img{
+    display:block;
+    margin:auto;
+}
+
+h2{
+    color: #C2BFBD;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+/*---Home---*/
+
+.tNav{
+    width: 100%;
+    height: 180px;
+    background-color: #6B6B76;
+    top: 0px;
+    border-bottom: 10px #6B6B76 solid; 
+    grid-area: tNav;
+    z-index: 100;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
+/*BOTONES del MENU*/
+
+.botones{
+    margin: 0px;
+    border: #A9684C 2px;
+    border-style: solid;
+    width: 300px;
+    background-color: #6B6B76; 
+    transition: background-color .3s;
+    text-align: center;
+}
+    .botones:hover{ 
+        background-image: linear-gradient( #6B6B76 , #A9684C);
+    }
+
+           
+#space{
+    padding-top: 200px;
+}
+
+
+.imgCel img{
+    width: 300px;
+    height: 500px;
+}
+
+#carouselExampleControls{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carrousell{
+    width: 1500px;
+    height: 1000px;
+}
+
+
+
+
+/*---Quienes somos---*/
+
+h2{
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.info {
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: stretch;
+    align-items: center;
+
+}
+
+.info img{
+    justify-self: center;
+}
+
+#txtImg{
+    width: 650px; 
+}
+
+
+/*Trabajos-Imágenes*/
+
+.ordFotos{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    
+}
+    .ordFotos img{
+        width: 400px;
+        height: 350px;
+        margin: 10px;
+        flex-basis: auto;
+        flex: 1;
+        transition: 1s;
+    }
+
+.ordFotos img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.imgAlto{
+    width: 60vh;
+    height: 30vw;
+}
+
+.imgAncho{
+    width: 80vh;
+    height: 30vw;
+}
+
+#imgAltas{
+    width: 300px;
+    height: 450px;
+}
+
+/*---Animación-----------*/
+
+
+
+
+/*---Contacto---*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.maps{
+    text-align: center;
+    margin: 5px;
+}
+
+
+/*---Pie de página---*/
+
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+
+.piePag{
+    border-top: #A9684C 6px;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #6B6B76
+    
+}
+
+
+.footPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#centrar table tr td{
+    padding-left: 20vw;
+}
+
+
+
+/*---Celulares-------------*/
+
+@media all and (min-width: 360px) and (max-width: 760px) {
+    
+    /*Cambios Generales y Home*/
+    .title{
+        max-width: 360px;
+        font-size: 25px;
+    }
+
+
+    .footPag img{
+        display: none;
+    }
+    .footPag a{
+        display: none;
+    }
+    .footPag{
+        flex-direction: column;
+    }
+    .botones{
+        width: 180px;
+    }
+    .botones h2{
+        font-size: 20px !important;
+    }
+
+    /*Cambios en Quienes Somos*/
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info img{
+
+        height: 200px;
+    }
+    #txtImg{
+        width: 280px;
+    }
+    
+
+    /*Cambios en Trabajos*/
+
+    .ordFotos{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .ordFotos img{
+        width: 300px;
+        height: 350px;
+        margin: 10px;
+    }
+
+    
+   
+
+/*---Tablets-------------*/
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    
+    
+
+    .title{
+        font-size: 30px;
+    }
+
+    .botones{
+        width: 180px;
+    }
+    .botones h2{
+        font-size: 20px !important;
+   
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
