@@ -1,0 +1,29 @@
+
+$bttn: 20px;
+
+$marron: #A9684C;
+$gris: #6B6B76;
+$grisClaro: #C2BFBD;
+
+/*bucle*/
+@for $bttn from 1 to 7 {
+    .botones-#{$bttn}{width: 50px * $bttn;}
+}
+
+/*maps*/
+
+$redes: (
+    facebook: rgb(52, 52, 216),
+    instragram: rgb(37, 146, 182),
+    maps: rgb(214, 214, 76),
+    whatsapp: rgb(40, 216, 40),
+    email: rgb(224, 165, 54),
+);
+
+@each $red, $color in $redes{
+    .bttn-#{$red} {
+        background-color: $color;
+    }
+}
+
+
