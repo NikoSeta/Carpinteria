@@ -1,0 +1,108 @@
+
+
+
+.index{
+    background-image: linear-gradient(#C2BFBD, #68625e);
+}
+
+.navbar__center{
+    justify-content: center;
+}
+
+.title{
+    color: #A9684C;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    text-decoration: underline;  
+    background-color: #6B6B76 ;
+}
+
+.titleCel{
+    color: #A9684C;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;  
+    background-color: #6B6B76 ;
+    padding-top: 15px;
+    padding-left: 10;
+}
+
+
+.pading{
+    padding-top: 200px;
+}
+.pading h1{
+    text-align: center;
+}
+.pading img{
+    display:block;
+    margin:auto;
+}
+
+h2{
+    color: #C2BFBD;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+/*---Home---*/
+
+.tNav{
+    width: 100%;
+    height: 180px;
+    background-color: #6B6B76;
+    top: 0px;
+    border-bottom: 10px #6B6B76 solid; 
+    grid-area: tNav;
+    z-index: 100;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
+/*BOTONES del MENU*/
+
+.botones{
+    margin: 0px;
+    border: #A9684C 2px;
+    border-style: solid;
+    width: 300px;
+    background-color: #6B6B76; 
+    transition: background-color .3s;
+    text-align: center;
+}
+    .botones:hover{ 
+        background-image: linear-gradient( #6B6B76 , #A9684C);
+    }
+
+           
+#space{
+    padding-top: 200px;
+}
+
+
+.imgCel img{
+    width: 300px;
+    height: 500px;
+}
+
+#carouselExampleControls{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carrousell{
+    width: 1500px;
+    height: 1000px;
+}
+
+
+

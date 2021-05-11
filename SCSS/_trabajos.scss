@@ -1,0 +1,41 @@
+
+
+/*Trabajos-Imágenes*/
+
+.ordFotos{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    
+}
+    .ordFotos img{
+        width: 400px;
+        height: 350px;
+        margin: 10px;
+        flex-basis: auto;
+        flex: 1;
+        transition: 1s;
+    }
+
+.ordFotos img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.imgAlto{
+    width: 60vh;
+    height: 30vw;
+}
+
+.imgAncho{
+    width: 80vh;
+    height: 30vw;
+}
+
+#imgAltas{
+    width: 300px;
+    height: 450px;
+}

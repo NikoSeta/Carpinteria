@@ -1,0 +1,37 @@
+
+
+/*---Pie de página---*/
+
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+
+.piePag{
+    border-top: #A9684C 6px;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #6B6B76
+    
+}
+
+
+.footPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#centrar table tr td{
+    padding-left: 20vw;
+}
+
+
