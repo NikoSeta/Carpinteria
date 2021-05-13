@@ -72,7 +72,7 @@ video{
 
 .botones{
     margin: 0px;
-    border: #A9684C 2px;
+    border: $marron 2px;
     border-style: solid;
     width: 300px;
     background-color: #6B6B76; 
@@ -102,7 +102,81 @@ video{
 .carrousell{
     width: 1500px;
     height: 1000px;
+    padding-bottom: 0px;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;   
+}
+.frase h4{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    background-color: $marron;
+}
+
+.frase img{
+    
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
 
 
+@media all and (min-width: 360px) and (max-width: 760px) {
+    
+    /*Cambios Generales y Home*/
 
+    .navbar{
+        height: 110px;
+        
+    }
+    
+    .title{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        
+        font-size: 25px;
+        word-spacing: 0px;
+    }
+    .title h1{
+        align-content: center;
+    }
+
+    .nav-item{
+        width: 100%;
+    }
+    .botones{
+        padding: 0px;
+        width: 360px;
+
+    }
+    #space{
+        padding-top: 96px;
+    }
+    .frase{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 25px;
+        
+    }
+    .frase h4{
+        font-size: 15px;
+        padding: 10px;
+        color: whitesmoke;
+    }
+    .frase img{
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}    
+
+}

@@ -30,3 +30,30 @@ h2{
     width: 650px; 
 }
 
+@media all and (min-width: 360px) and (max-width: 760px) {
+    
+    /*Cambios Generales y Home*/
+    .title{
+        max-width: 360px;
+        font-size: 25px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info h3{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .info p{
+        text-align: justify;
+    }
+    .info img{
+
+        height: 200px;
+    }
+    #txtImg{
+        width: 280px;
+    }
+}

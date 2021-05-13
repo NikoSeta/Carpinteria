@@ -1,0 +1,25 @@
+
+
+/*---Contacto---*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.maps{
+    text-align: center;
+    margin: 5px;
+}
+
+@media all and (min-width: 360px) and (max-width: 760px) {
+    
+    /*Cambios Generales y Home*/
+    .title{
+        max-width: 360px;
+        font-size: 25px;
+    }
+}
