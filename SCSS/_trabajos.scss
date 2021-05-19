@@ -49,7 +49,7 @@
     }
 
     .ordFotos{
-        
+        width: 320px;
         display: flex;
         flex-direction: column;
         margin-left: 20px;
@@ -61,7 +61,7 @@
     }
 }
 
-@media all and (min-width: 360px) and (max-width: 759px) {
+@media all and (min-width: 759px) and (max-width: px) {
     
     .ordFotos{
         width: 700px;
@@ -71,17 +71,4 @@
     }
 
 
-}
-@media all and (min-width: 760px) and (max-width: 1024px) {
-
-    .ordFotos{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .ordFotos img{
-        width: 350px;
-        height: 300px;
-        
-    }           
 }
