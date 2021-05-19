@@ -128,17 +128,23 @@ video {
   margin: 0px;
   border: #A9684C 2px;
   border-style: solid;
-  width: 300px;
+  width: 250px;
   background-color: #6B6B76;
   transition: background-color .3s;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 0; }
 
 .botones:hover {
   background-image: linear-gradient(#6B6B76, #A9684C); }
 
+.botones p {
+  color: whitesmoke;
+  font-size: 20px; }
+
 #space {
   padding-top: 200px; }
 
+/*---------Carousel--------*/
 .imgCel img {
   width: 300px;
   height: 500px; }
@@ -186,7 +192,13 @@ video {
     width: 100%; }
   .botones {
     padding: 0px;
-    width: 360px; }
+    width: 360px !important; }
+  .navbar__center {
+    justify-content: left; }
+  .navbar__center div h1 {
+    width: 360px;
+    text-align: center;
+    display: initial; }
   #space {
     padding-top: 96px; }
   .frase {
@@ -203,6 +215,25 @@ video {
     margin-left: auto;
     margin-right: auto;
     display: block; } }
+
+@media all and (min-width: 760px) and (max-width: 1024px) {
+  .navbar {
+    height: 150px; }
+  .botones {
+    display: flex;
+    align-content: center;
+    padding: 0px;
+    width: 250px; }
+  .botones p {
+    text-align: center; }
+  .navbar__center div h1 {
+    width: 760px;
+    text-align: center;
+    display: flex; }
+  .frase h4 {
+    font-size: 25px; }
+  .frase img {
+    width: 760px; } }
 
 /*QUIENES SOMOS*/
 /*---Quienes somos---*/
@@ -228,7 +259,6 @@ h2 {
   width: 650px; }
 
 @media all and (min-width: 360px) and (max-width: 760px) {
-  /*Cambios Generales y Home*/
   .title {
     max-width: 360px;
     font-size: 25px; }
@@ -245,6 +275,22 @@ h2 {
   #txtImg {
     width: 280px; } }
 
+@media all and (min-width: 760px) and (max-width: 1024px) {
+  .title {
+    font-size: 30px; }
+  .info {
+    display: flex;
+    flex-direction: column; }
+  .info h3 {
+    font-size: 20px;
+    text-align: justify; }
+  .info p {
+    text-align: justify; }
+  .info img {
+    height: 300px; }
+  #txtImg {
+    width: 500px; } }
+
 /*TRABAJOS*/
 /*Trabajos-Imágenes*/
 .ordFotos {
@@ -252,7 +298,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 50vh;
   margin-right: 50vh; }
 
@@ -280,7 +326,6 @@ h2 {
   height: 450px; }
 
 @media all and (min-width: 360px) and (max-width: 760px) {
-  /*Cambios Generales y Home*/
   .title {
     max-width: 360px;
     font-size: 25px; }
@@ -288,12 +333,19 @@ h2 {
     width: 300px;
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .ordFotos img {
+    width: 300px;
+    height: 350px; } }
+
+@media all and (min-width: 760px) and (max-width: 1024px) {
+  .ordFotos {
     margin-left: 5px;
     margin-right: 5px; }
   .ordFotos img {
-    width: 300px;
-    height: 350px;
-    margin: 10px; } }
+    width: 350px;
+    height: 300px; } }
 
 /*CONTACTO*/
 /*---Contacto---*/
