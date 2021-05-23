@@ -110,6 +110,9 @@ h2{
     display: flex;
     flex-direction: column;   
 }
+.frase a{
+    text-decoration: none;
+}
 .frase h4{
     text-align: center;
     font-size: 40px;
@@ -118,7 +121,9 @@ h2{
     color: whitesmoke;
     background-color: $marron;
 }
-
+    .frase a h4:hover{ 
+    background-image: linear-gradient( $gris , $marron);
+    }
 .frase img{
     
     width: 1300px;
@@ -128,11 +133,9 @@ h2{
     
 }
 
-
 @media all and (min-width: 360px) and (max-width: 760px) {
     
     /*Cambios Generales y Home*/
-
     .navbar{
         height: 110px;
         
@@ -174,9 +177,9 @@ h2{
         display: flex;
         flex-direction: column;
         align-content: center;
-        padding-top: 25px;
-        
+        padding-top: 25px;        
     }
+    
     .frase h4{
         font-size: 15px;
         padding: 10px;
@@ -190,9 +193,7 @@ h2{
     }
 }
 
-
 @media all and (min-width: 760px) and (max-width: 1024px) {
-
     .navbar{
         height: 150px;
         

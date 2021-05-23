@@ -158,6 +158,9 @@ h2 {
   display: flex;
   flex-direction: column; }
 
+.frase a {
+  text-decoration: none; }
+
 .frase h4 {
   text-align: center;
   font-size: 40px;
@@ -165,6 +168,9 @@ h2 {
   margin-bottom: 20px;
   color: whitesmoke;
   background-color: #A9684C; }
+
+.frase a h4:hover {
+  background-image: linear-gradient(#6B6B76, #A9684C); }
 
 .frase img {
   width: 1300px;
