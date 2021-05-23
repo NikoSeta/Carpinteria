@@ -61,14 +61,16 @@
     }
 }
 
-@media all and (min-width: 759px) and (max-width: px) {
+@media all and (min-width: 759px) and (max-width: 1024px) {
     
     .ordFotos{
         width: 700px;
-        margin-left: 20px;
-        margin-right: 20px;
-        align-content: stretch;
+        margin-left: 3vh;
+        margin-right: 3vh;
     }
+    .ordFotos img{
+        width: 600px;
 
+    }
 
 }

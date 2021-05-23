@@ -1,0 +1,37 @@
+
+.sketchup{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketchup img{
+    padding: 5px;
+}
+
+@media all and (min-width: 360px) and (max-width: 760px) {
+
+    .sketchup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .sketchup img{
+        width: 340px;
+    }
+
+    #space {
+        padding-top: 90px;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 1024px) {
+    #space {
+        padding-top: 150px;
+    }
+}

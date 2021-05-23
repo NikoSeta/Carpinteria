@@ -47,11 +47,6 @@ h2{
     color: #C2BFBD;
 }
 
-video{
-    width: 100%;
-    height: 100%;
-}
-
 /*---Home---*/
 
 .tNav{
@@ -173,7 +168,7 @@ video{
     }
     
     #space{
-        padding-top: 96px;
+        padding-top: 120px;
     }
     .frase{
         display: flex;
@@ -204,10 +199,10 @@ video{
     }
     
     .botones{
+        width: 190px;
         display: flex;
         align-content: center;
         padding: 0px;
-        width: 250px;
     }
 
     .botones p{
@@ -226,5 +221,9 @@ video{
     }
     .frase img{
         width: 760px;
+    }
+
+    #space{
+        padding-top: 120px;
     }
 }

@@ -107,10 +107,6 @@
 h2 {
   color: #C2BFBD; }
 
-video {
-  width: 100%;
-  height: 100%; }
-
 /*---Home---*/
 .tNav {
   width: 100%;
@@ -200,7 +196,7 @@ video {
     text-align: center;
     display: initial; }
   #space {
-    padding-top: 96px; }
+    padding-top: 120px; }
   .frase {
     display: flex;
     flex-direction: column;
@@ -220,10 +216,10 @@ video {
   .navbar {
     height: 150px; }
   .botones {
+    width: 190px;
     display: flex;
     align-content: center;
-    padding: 0px;
-    width: 250px; }
+    padding: 0px; }
   .botones p {
     text-align: center; }
   .navbar__center div h1 {
@@ -233,7 +229,9 @@ video {
   .frase h4 {
     font-size: 25px; }
   .frase img {
-    width: 760px; } }
+    width: 760px; }
+  #space {
+    padding-top: 120px; } }
 
 /*QUIENES SOMOS*/
 /*---Quienes somos---*/
@@ -339,12 +337,13 @@ h2 {
     width: 300px;
     height: 350px; } }
 
-@media all and (min-width: 759px) and (max-width: px) {
+@media all and (min-width: 759px) and (max-width: 1024px) {
   .ordFotos {
     width: 700px;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-content: stretch; } }
+    margin-left: 3vh;
+    margin-right: 3vh; }
+  .ordFotos img {
+    width: 600px; } }
 
 /*CONTACTO*/
 /*---Contacto---*/
@@ -365,6 +364,33 @@ form {
   .title {
     max-width: 360px;
     font-size: 25px; } }
+
+/*PROYECTOS*/
+.sketchup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.sketchup img {
+  padding: 5px; }
+
+@media all and (min-width: 360px) and (max-width: 760px) {
+  .sketchup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px; }
+  .sketchup img {
+    width: 340px; }
+  #space {
+    padding-top: 90px; } }
+
+@media all and (min-width: 760px) and (max-width: 1024px) {
+  #space {
+    padding-top: 150px; } }
 
 /*PIE DE PÁGINA*/
 /*---Pie de página---*/
