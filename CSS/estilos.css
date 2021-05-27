@@ -137,8 +137,15 @@ h2 {
   color: whitesmoke;
   font-size: 20px; }
 
-#space {
-  padding-top: 200px; }
+.frase__inicio {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 190px;
+  padding-bottom: 1px;
+  background-color: #A9684C; }
+
+.frase__inicio p {
+  color: whitesmoke; }
 
 /*---------Carousel--------*/
 .imgCel img {
@@ -163,7 +170,7 @@ h2 {
 
 .frase h4 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   color: whitesmoke;
@@ -201,8 +208,10 @@ h2 {
     width: 360px;
     text-align: center;
     display: initial; }
-  #space {
-    padding-top: 120px; }
+  .frase__inicio {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 190px; }
   .frase {
     display: flex;
     flex-direction: column;
@@ -235,9 +244,7 @@ h2 {
   .frase h4 {
     font-size: 25px; }
   .frase img {
-    width: 760px; }
-  #space {
-    padding-top: 120px; } }
+    width: 760px; } }
 
 /*QUIENES SOMOS*/
 /*---Quienes somos---*/
@@ -245,16 +252,16 @@ h2 {
   font-family: Arial, Helvetica, sans-serif; }
 
 .info {
-  padding-top: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-  grid-row-gap: 10px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
   justify-content: stretch;
   align-items: center; }
+
+.info p {
+  width: 700px;
+  text-align: justify;
+  font-size: 20px; }
 
 .info img {
   justify-self: center; }
@@ -266,18 +273,17 @@ h2 {
   .title {
     max-width: 360px;
     font-size: 25px; }
-  .info {
-    display: flex;
-    flex-direction: column; }
   .info h3 {
     font-size: 15px;
     text-align: justify; }
   .info p {
+    width: 340px;
+    font-size: 20px;
     text-align: justify; }
   .info img {
     height: 200px; }
   #txtImg {
-    width: 280px; } }
+    width: 330px; } }
 
 @media all and (min-width: 760px) and (max-width: 1024px) {
   .title {
@@ -293,12 +299,11 @@ h2 {
   .info img {
     height: 300px; }
   #txtImg {
-    width: 500px; } }
+    width: 650px; } }
 
 /*TRABAJOS*/
 /*Trabajos-Imágenes*/
 .ordFotos {
-  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -359,7 +364,27 @@ form {
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 5px; }
+  margin: 10px; }
+
+form label {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: whitesmoke; }
+
+form input {
+  padding-top: 5px;
+  border: 2px solid #A9684C;
+  background-color: #f1a17f;
+  width: 200px; }
+
+form p {
+  padding-top: 30px;
+  color: whitesmoke;
+  font-size: 25px; }
+
+form textarea {
+  border: 2px solid #A9684C;
+  background-image: linear-gradient(#f1a17f, #A9684C); }
 
 .maps {
   text-align: center;
@@ -369,7 +394,9 @@ form {
   /*Cambios Generales y Home*/
   .title {
     max-width: 360px;
-    font-size: 25px; } }
+    font-size: 25px; }
+  form {
+    padding-top: 110px; } }
 
 /*PROYECTOS*/
 .sketchup {

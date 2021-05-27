@@ -85,8 +85,15 @@ h2{
         font-size: 20px;
     }     
 
-#space{
-    padding-top: 200px;
+.frase__inicio{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 190px;
+    padding-bottom: 1px; 
+    background-color: #A9684C;
+}
+.frase__inicio p{
+    color: whitesmoke;
 }
 
 /*---------Carousel--------*/
@@ -115,7 +122,7 @@ h2{
 }
 .frase h4{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
     margin-bottom: 20px;
     color: whitesmoke;
@@ -140,7 +147,6 @@ h2{
         height: 110px;
         
     }
-    
     .title{
         width: 300px;
         display: flex;
@@ -169,9 +175,10 @@ h2{
         text-align: center;
         display: initial;
     }
-    
-    #space{
-        padding-top: 120px;
+    .frase__inicio{
+        text-align: center;
+        font-size: 18px;
+        padding-top: 190px;
     }
     .frase{
         display: flex;
@@ -179,7 +186,6 @@ h2{
         align-content: center;
         padding-top: 25px;        
     }
-    
     .frase h4{
         font-size: 15px;
         padding: 10px;
@@ -193,38 +199,31 @@ h2{
     }
 }
 
+
 @media all and (min-width: 760px) and (max-width: 1024px) {
+    
     .navbar{
         height: 150px;
         
     }
-    
     .botones{
         width: 190px;
         display: flex;
         align-content: center;
         padding: 0px;
     }
-
     .botones p{
         text-align: center;
     }
-
     .navbar__center div h1{
         width: 760px;
         text-align: center;
         display: flex;
     }
-
-    
     .frase h4{
         font-size: 25px;
     }
     .frase img{
         width: 760px;
-    }
-
-    #space{
-        padding-top: 120px;
     }
 }

@@ -8,8 +8,29 @@ form{
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    margin: 10px;
 }
+form label{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+}
+form input{
+    padding-top: 5px;
+    border: 2px solid $marron;
+    background-color: #f1a17f;
+    width: 200px;
+}
+form p{
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+form textarea{
+    border: 2px solid $marron;
+    background-image: linear-gradient(#f1a17f, $marron);
+}
+
 .maps{
     text-align: center;
     margin: 5px;
@@ -21,5 +42,8 @@ form{
     .title{
         max-width: 360px;
         font-size: 25px;
+    }
+    form{
+        padding-top: 110px
     }
 }
