@@ -217,6 +217,9 @@ h2 {
     flex-direction: column;
     align-content: center;
     padding-top: 25px; }
+  .frase__inicio p {
+    font-size: 12px;
+    margin-bottom: 1px !important; }
   .frase h4 {
     font-size: 15px;
     padding: 10px;
@@ -419,7 +422,7 @@ form textarea {
   .sketchup img {
     width: 340px; }
   #space {
-    padding-top: 90px; } }
+    padding-top: 115px; } }
 
 @media all and (min-width: 760px) and (max-width: 1024px) {
   #space {
