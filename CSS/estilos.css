@@ -185,6 +185,21 @@ h2 {
   margin-right: auto;
   display: block; }
 
+/*---------Cartas de reseña--------*/
+.resena {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.card {
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  background-color: #A9684C; }
+
+.card-text {
+  color: whitesmoke; }
+
 @media all and (min-width: 360px) and (max-width: 760px) {
   /*Cambios Generales y Home*/
   .navbar {
@@ -228,9 +243,19 @@ h2 {
     width: 360px;
     margin-left: auto;
     margin-right: auto;
-    display: block; } }
+    display: block; }
+  /*---------Cartas de reseña--------*/
+  .resena {
+    display: grid;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .card {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px; } }
 
-@media all and (min-width: 760px) and (max-width: 1024px) {
+@media all and (min-width: 360px) and (max-width: 760px) and (min-width: 760px) and (max-width: 1024px) {
   .navbar {
     height: 150px; }
   .botones {
@@ -247,7 +272,15 @@ h2 {
   .frase h4 {
     font-size: 25px; }
   .frase img {
-    width: 760px; } }
+    width: 760px; }
+  /*---------Cartas de reseña--------*/
+  .resena {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .card {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px; } }
 
 /*QUIENES SOMOS*/
 /*---Quienes somos---*/
