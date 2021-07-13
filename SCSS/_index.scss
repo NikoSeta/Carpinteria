@@ -2,7 +2,7 @@
 
 
 .index{
-    background-image: linear-gradient(#C2BFBD, #68625e);
+    background-image: linear-gradient($grisClaro, $gris);
 }
 
 .navbar__center{
@@ -10,23 +10,23 @@
 }
 
 .title{
-    color: #A9684C;
+    color: $amarillo;
     font-size: 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     word-spacing: 30px;
     text-decoration: underline;  
-    background-color: #6B6B76 ;
+    background-color: $gris ;
 }
 
 .titleCel{
-    color: #A9684C;
+    color: $marron;
     font-size: 20px;
     letter-spacing: 5px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;  
-    background-color: #6B6B76 ;
+    background-color: $gris ;
     padding-top: 15px;
     padding-left: 10;
 }
@@ -44,7 +44,7 @@
 }
 
 h2{
-    color: #C2BFBD;
+    color: $grisClaro;
 }
 
 /*---Home---*/
@@ -52,9 +52,9 @@ h2{
 .tNav{
     width: 100%;
     height: 180px;
-    background-color: #6B6B76;
+    background-color: $gris;
     top: 0px;
-    border-bottom: 10px #6B6B76 solid; 
+    border-bottom: 10px $gris solid; 
     grid-area: tNav;
     z-index: 100;
     left: 50%;
@@ -71,13 +71,13 @@ h2{
     border-style: solid;
 
     width: 250px;
-    background-color: #6B6B76; 
+    background-color: $gris; 
     transition: background-color .3s;
     text-align: center;
     padding-bottom: 0;
 }
     .botones:hover{ 
-        background-image: linear-gradient( #6B6B76 , #A9684C);
+        background-image: linear-gradient( $gris, $marron);
     }
 
     .botones p{
@@ -90,7 +90,7 @@ h2{
     font-size: 18px;
     padding-top: 190px;
     padding-bottom: 1px; 
-    background-color: #A9684C;
+    background-color: $marron;
 }
 .frase__inicio p{
     color: whitesmoke;

@@ -18,7 +18,7 @@ form label{
 form input{
     padding-top: 5px;
     border: 2px solid $marron;
-    background-color: #f1a17f;
+    background-color: $naranja;
     width: 200px;
 }
 form p{
@@ -28,7 +28,7 @@ form p{
 }
 form textarea{
     border: 2px solid $marron;
-    background-image: linear-gradient(#f1a17f, $marron);
+    background-image: linear-gradient($naranja, $marron);
 }
 
 .maps{
