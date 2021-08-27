@@ -9,30 +9,10 @@
     justify-content: center;
 }
 
-.title{
-    color: $amarillo;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    word-spacing: 30px;
-    text-decoration: underline;  
-    background-color: $gris ;
+.icono{
+    margin-top: 25px;
+    width: 180px;
 }
-
-.titleCel{
-    color: $marron;
-    font-size: 20px;
-    letter-spacing: 5px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;  
-    background-color: $gris ;
-    padding-top: 15px;
-    padding-left: 10;
-}
-
-
-
 
 h2{
     color: $grisClaro;
@@ -153,31 +133,28 @@ h2{
     
     /*Cambios Generales y Home*/
     .navbar{
-        height: 110px;
-        
+        height: 200px;
+        align-items: center;   
+        justify-content: center;  
+        width: 100%;   
     }
-    .title{
-        width: 300px;
-        display: flex;
-        align-items: center;
-        
-        font-size: 25px;
-        word-spacing: 0px;
+    .icono{
+        display: block;
+        margin: 0 auto 0 auto;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        width: 130px;
     }
-    .title h1{
-        align-content: center;
+    .navbar-toggler{
+        width: 100%;
+        background-color: $marron;
     }
-
     .nav-item{
         width: 100%;
     }
     .botones{
         padding: 0px;
         width: 360px !important;
-    }
-
-    .navbar__center{
-        justify-content: left;
     }
     .navbar__center div h1{
         width: 360px;
@@ -187,7 +164,7 @@ h2{
     .frase__inicio{
         text-align: center;
         font-size: 18px;
-        padding-top: 190px;
+        margin-top: 90px;
     }
     .frase{
         display: flex;

@@ -74,35 +74,9 @@
 .navbar__center {
   justify-content: center; }
 
-.title {
-  color: #F3C969;
-  font-size: 60px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 5px;
-  word-spacing: 30px;
-  text-decoration: underline;
-  background-color: #6B6B76; }
-
-.titleCel {
-  color: #784F41;
-  font-size: 20px;
-  letter-spacing: 5px;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: underline;
-  background-color: #6B6B76;
-  padding-top: 15px;
-  padding-left: 10; }
-
-.pading {
-  padding-top: 200px; }
-
-.pading h1 {
-  text-align: center; }
-
-.pading img {
-  display: block;
-  margin: auto; }
+.icono {
+  margin-top: 25px;
+  width: 180px; }
 
 h2 {
   color: #C2BFBD; }
@@ -203,22 +177,24 @@ h2 {
 @media all and (min-width: 360px) and (max-width: 760px) {
   /*Cambios Generales y Home*/
   .navbar {
-    height: 110px; }
-  .title {
-    width: 300px;
-    display: flex;
+    height: 200px;
     align-items: center;
-    font-size: 25px;
-    word-spacing: 0px; }
-  .title h1 {
-    align-content: center; }
+    justify-content: center;
+    width: 100%; }
+  .icono {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 130px; }
+  .navbar-toggler {
+    width: 100%;
+    background-color: #784F41; }
   .nav-item {
     width: 100%; }
   .botones {
     padding: 0px;
     width: 360px !important; }
-  .navbar__center {
-    justify-content: left; }
   .navbar__center div h1 {
     width: 360px;
     text-align: center;
@@ -226,7 +202,7 @@ h2 {
   .frase__inicio {
     text-align: center;
     font-size: 18px;
-    padding-top: 190px; }
+    margin-top: 90px; }
   .frase {
     display: flex;
     flex-direction: column;
@@ -410,7 +386,7 @@ form label {
 form input {
   padding-top: 5px;
   border: 2px solid #784F41;
-  background-color: #f1a17f;
+  background-color: #e68c47;
   width: 200px; }
 
 form p {
@@ -420,7 +396,7 @@ form p {
 
 form textarea {
   border: 2px solid #784F41;
-  background-image: linear-gradient(#f1a17f, #784F41); }
+  background-image: linear-gradient(#e68c47, #784F41); }
 
 .maps {
   text-align: center;
